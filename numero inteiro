@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+main()
+{
+    int N1,N2,N3,N4,N5,soma ,produto
+
+float media;
+
+
+    printf("digite 5 numeros inteiros:");
+    scanf("%d %d %d %d %d",&N1,&N2,&N3,&N4,&N5);
+    soma= N1+N2+N3+N4+N5;
+    produto= N1*N2*N3*N4*N5;
+    media=(float)soma/5;
+    printf("a soma,o produto e a media entre os numeros sao %d%d %f\n", soma, produto,media);
+    system ("pause");
+
+    return 0;
+
+
+
+}
